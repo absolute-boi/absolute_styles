@@ -3,7 +3,7 @@
   "description": "a descriptive design system meant to help quickly compose custom user interfaces in maintainable and easily readable patterns",
   "license": "GPL-3.0",
   "name": "absolute_styles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {},
   "devDependencies": {
     "css-minify": "^2.0.0",
