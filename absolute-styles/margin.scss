@@ -1,0 +1,35 @@
+@import "@root";
+
+@each $drop, $value in $spacing {
+  .drop-#{$drop} {
+    margin-top: var(--spacing-#{$drop});
+  }
+}
+
+@each $stack, $value in $spacing {
+  .stack-#{$stack} {
+    margin-bottom: var(--spacing-#{$stack});
+  }
+}
+
+@each $pull, $value in $spacing {
+  .pull-#{$pull} {
+    margin-right: var(--spacing-#{$pull});
+  }
+}
+
+@each $push, $value in $spacing {
+  .push-#{$push} {
+    margin-left: var(--spacing-#{$push});
+  }
+}
+
+.center-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-vertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}

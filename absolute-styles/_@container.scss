@@ -1,0 +1,130 @@
+$display-values: (
+  block,
+  contents,
+  flex,
+  flow-root,
+  grid,
+  inherit,
+  initial,
+  inline-block,
+  inline-flex,
+  inline-grid,
+  inline,
+  list-item,
+  none,
+  revert-layer,
+  revert,
+  table-row,
+  table,
+  unset
+);
+
+$flex-basis-values: (
+  auto,
+  content,
+  fit-content,
+  inherit,
+  initial,
+  max-content,
+  min-content,
+  rever-layer,
+  revert,
+  unset
+);
+
+$flex-direction-values: (
+  column-reverse,
+  column,
+  inherit,
+  initial,
+  revert-layer,
+  revert,
+  row-reverse,
+  row,
+  unset
+);
+
+$flex-flow-values: (
+  column-reverse,
+  column,
+  inherit,
+  initial,
+  nowrap,
+  revert-layer,
+  revert,
+  row-reverse,
+  row,
+  unset,
+  wrap-reverse,
+  wrap
+);
+
+$flex-wrap-values: (
+  inherit,
+  initial,
+  nowrap,
+  revert-layer,
+  revert,
+  unset,
+  wrap-reverse,
+  wrap
+);
+
+$grid-auto-flow-values: (
+  "column-dense": column dense,
+  "column": column,
+  "dense": dense,
+  "inherit": inherit,
+  "initial": initial,
+  "revert-layer": revert-layer,
+  "revert": revert,
+  "row-dense": row dense,
+  "row": row,
+  "unset": unset,
+);
+
+$aspect-ratios: (
+  "smartphone": calc(6 / 13),
+  "iphone-5": calc(9 / 16),
+  "medium-format": calc(1 / 1),
+  "movietone": calc(19 / 16),
+  "large-format": calc(5 / 4),
+  "fullscreen": calc(4 / 3),
+  "academy": calc(11 / 8),
+  "imax": calc(143 / 100),
+  "full-frame": calc(3 / 2),
+  "acceptable": calc(14 / 9),
+  "paramount": calc(5 / 3),
+  "hd": calc(16 / 9),
+  "american-widescreen": calc(37 / 20),
+  "univisium": calc(2 / 1),
+  "widescreen-consumer": calc(64 / 27),
+  "widescreen-cinema": calc(47 / 20),
+  "ultra-panavision-70": calc(69 / 25),
+  "panorama": calc(3 / 1),
+  "super-ultrawide": calc(32 / 9),
+);
+
+$overflow-values: (
+  auto,
+  clip,
+  hidden,
+  inherit,
+  initial,
+  revert-layer,
+  revert,
+  scroll,
+  unset,
+  visible
+);
+
+$overflow-wrap-values: (
+  anywhere,
+  break-word,
+  inherit,
+  initial,
+  normal,
+  revert-layer,
+  revert,
+  unset
+);

@@ -1,0 +1,15 @@
+@import "@root";
+
+@each $squish, $value in $spacing {
+  .squeeze-#{$squish} {
+    padding-left: var(--spacing-#{$squish});
+    padding-right: var(--spacing-#{$squish});
+  }
+}
+
+@each $squish, $value in $spacing {
+  .squish-#{$squish} {
+    padding-top: var(--spacing-#{$squish});
+    padding-bottom: var(--spacing-#{$squish});
+  }
+}

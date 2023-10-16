@@ -1,0 +1,155 @@
+$text-align-values: (
+  center,
+  end,
+  inherit,
+  initial,
+  justify-all,
+  justify,
+  left,
+  match-parent,
+  revert,
+  right,
+  start,
+  unset
+);
+
+$text-align-last-values: (
+  auto,
+  center,
+  end,
+  inherit,
+  initial,
+  justify,
+  left,
+  revert,
+  right,
+  start,
+  unset
+);
+
+$text-decoration-line-values: (
+  blink,
+  inherit,
+  initial,
+  line-through,
+  none,
+  overline,
+  revert,
+  underline,
+  unset
+);
+
+$text-decoration-skip-ink-values: (
+  all,
+  auto,
+  inherit,
+  initial,
+  none,
+  revert-layer,
+  revert,
+  unset
+);
+
+$text-decoration-style-values: (
+  dashed,
+  dotted,
+  double,
+  inherit,
+  initial,
+  revert-layer,
+  revert,
+  solid,
+  unset,
+  wavy
+);
+
+$text-emphasis-style-values: (
+  circle,
+  dot,
+  double-circle,
+  filled,
+  inherit,
+  initial,
+  none,
+  open,
+  revert-layer,
+  revert,
+  sesame,
+  triangle,
+  unset
+);
+
+$text-justify-values: (
+  auto,
+  inherit,
+  initial,
+  inter-character,
+  inter-word,
+  none,
+  revert-layer,
+  revert,
+  unset
+);
+
+$text-orientation-values: (
+  inherit,
+  initial,
+  mixed,
+  revert-layer,
+  revert,
+  sideways-right,
+  sideways,
+  unset,
+  upright,
+  use-glyph-orientation
+);
+
+$text-overflow-values: (
+  clip,
+  ellipsis,
+  inherit,
+  initial,
+  revert-layer,
+  revert,
+  unset
+);
+
+$text-transform-values: (
+  capitalize,
+  full-size-kana,
+  full-width,
+  inherit,
+  initial,
+  lowercase,
+  none,
+  revert-layer,
+  revert,
+  unset,
+  uppercase
+);
+
+$text-underline-position-values: (
+  auto,
+  inherit,
+  initial,
+  left,
+  revert-layer,
+  revert,
+  right,
+  under,
+  unset
+);
+
+$white-space-values: (
+  break-space,
+  inherit,
+  initial,
+  normal,
+  nowrap,
+  pre-line,
+  pre-wrap,
+  pre,
+  revert-layer,
+  revert,
+  unset
+);

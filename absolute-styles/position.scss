@@ -1,0 +1,65 @@
+@import "@root";
+@import "@position";
+
+@each $position in $positions {
+  .position-#{$position} {
+    position: $position;
+  }
+}
+
+@each $align-content in $align-content-values {
+  .align-content-#{$align-content} {
+    align-content: $align-content;
+  }
+}
+
+@each $align-items in $align-items-values {
+  .align-items-#{$align-items} {
+    align-items: $align-items;
+  }
+}
+
+@each $align-self in $align-self-values {
+  .align-self-#{$align-self} {
+    align-self: $align-self;
+  }
+}
+
+@each $justify-content in $justify-content-values {
+  .justify-content-#{$justify-content} {
+    justify-content: $justify-content;
+  }
+}
+
+@each $justify-items in $justify-items-values {
+  .justify-items-#{$justify-items} {
+    justify-items: $justify-items;
+  }
+}
+
+@each $justify-self in $justify-self-values {
+  .justify-self-#{$justify-self} {
+    justify-self: $justify-self;
+  }
+}
+
+@each $key, $value in $spacing {
+  .gap-#{$key} {
+    gap: var(--spacing-#{$key});
+    grid-gap: var(--spacing-#{$key});
+  }
+}
+
+@each $direction in $horizontal-directions {
+  .text-align-#{$direction} {
+    text-align: $direction;
+  }
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}

@@ -1,0 +1,19 @@
+@import '@root';
+
+:root {
+  @each $percentage in $percentages {
+    --percentage-#{$percentage}: #{$percentage * 1%};
+  }
+  @each $key, $value in $spacing {
+    --spacing-#{$key}: #{$value};
+  }
+  @each $key, $value in $text-sizes {
+    --text-#{$key}: #{$value};
+  }
+  @each $key, $value in $line-heights {
+    --height-#{$key}: #{$value};
+  }
+  @each $width in $fixed-widths {
+    --linear-width-#{$width}: #{$width * 1px};
+  }
+}

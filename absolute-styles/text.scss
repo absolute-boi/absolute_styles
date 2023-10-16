@@ -1,0 +1,74 @@
+@import "@root";
+@import "@text";
+
+@each $text-align in $text-align-values {
+  .text-align-#{$text-align} {
+    text-align: $text-align;
+  }
+}
+
+@each $text-align-last in $text-align-last-values {
+  .text-align-last-#{$text-align-last} {
+    text-align-last: $text-align-last;
+  }
+}
+
+@each $text-decoration-line in $text-decoration-line-values {
+  .text-decoration-line-#{$text-decoration-line} {
+    text-decoration-line: $text-decoration-line;
+  }
+}
+
+@each $text-decoration-skip-ink in $text-decoration-skip-ink-values {
+  .text-decoration-skip-ink-#{$text-decoration-skip-ink} {
+    text-decoration-skip-ink: $text-decoration-skip-ink;
+  }
+}
+
+@each $text-decoration-style in $text-decoration-style-values {
+  .text-decoration-style-#{$text-decoration-style} {
+    text-decoration-style: $text-decoration-style;
+  }
+}
+
+@each $text-emphasis-style in $text-emphasis-style-values {
+  .text-emphasis-style-#{$text-emphasis-style} {
+    text-emphasis-style: $text-emphasis-style;
+  }
+}
+
+@each $text-justify in $text-justify-values {
+  .text-justify-#{$text-justify} {
+    text-justify: $text-justify;
+  }
+}
+
+@each $text-orientation in $text-orientation-values {
+  .text-orientation-#{$text-orientation} {
+    text-orientation: $text-orientation;
+  }
+}
+
+@each $text-overflow in $text-overflow-values {
+  .text-overflow-#{$text-overflow} {
+    text-overflow: $text-overflow;
+  }
+}
+
+@each $text-transform in $text-transform-values {
+  .text-transform-#{$text-transform} {
+    text-transform: $text-transform;
+  }
+}
+
+@each $text-underline-position in $text-underline-position-values {
+  .text-underline-position-#{$text-underline-position} {
+    text-underline-position: $text-underline-position;
+  }
+}
+
+@each $white-space in $white-space-values {
+  .white-space-#{$white-space} {
+    white-space: $white-space;
+  }
+}

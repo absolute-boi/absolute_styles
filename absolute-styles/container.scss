@@ -1,0 +1,141 @@
+@import "@container";
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-grid {
+  display: inline-grid;
+}
+
+@each $display in $display-values {
+  .display-#{$display} {
+    display: $display;
+  }
+}
+
+.flew-row {
+  display: flex;
+  direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  direction: row-reverse;
+}
+
+.flex-column {
+  display: flex;
+  direction: column;
+}
+
+.flex-reactive {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .flex-reactive {
+    flex-direction: row;
+  }
+}
+
+.flex-item {
+  flex: 1;
+}
+
+@for $i from 1 through 3 {
+  .flex-#{$i} {
+    flex: $i;
+  }
+}
+
+@each $flex-direction in $flex-direction-values {
+  .flex-direction-#{$flex-direction} {
+    flex-direction: $flex-direction;
+  }
+}
+
+@each $flex-basis in $flex-basis-values {
+  .flex-basis-#{$flex-basis} {
+    flex-basis: $flex-basis;
+  }
+}
+
+@for $i from 1 through 10 {
+  .flex-basis-#{$i * 10}-pct {
+    flex-basis: var(--percentage-#{$i * 10});
+  }
+}
+
+@each $flex-flow in $flex-flow-values {
+  .flex-flow-#{$flex-flow} {
+    flex-flow: $flex-flow;
+  }
+}
+
+@each $flex-wrap in $flex-wrap-values {
+  .flex-wrap-#{$flex-wrap} {
+    flex-wrap: $flex-wrap;
+  }
+}
+
+@each $key, $value in $grid-auto-flow-values {
+  .grid-auto-flow-#{$key} {
+    grid-auto-flow: $value;
+  }
+}
+
+@each $key, $value in $aspect-ratios {
+  .aspect-ratio-#{$key} {
+    aspect-ratio: $value;
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+@each $overflow in $overflow-values {
+  .overflow-#{$overflow} {
+    overflow: $overflow;
+  }
+}
+
+@each $overflow-x in $overflow-values {
+  .overflow-x-#{$overflow-x} {
+    overflow-x: $overflow-x;
+  }
+}
+
+@each $overflow-y in $overflow-values {
+  .overflow-y-#{$overflow-y} {
+    overflow-y: $overflow-y;
+  }
+}
+
+@each $overflow-wrap in $overflow-wrap-values {
+  .overflow-wrap-#{$overflow-wrap} {
+    overflow-wrap: $overflow-wrap;
+  }
+}

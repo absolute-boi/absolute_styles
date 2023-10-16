@@ -1,0 +1,38 @@
+$spacing: (
+  "0": 0,
+  "2": 0.125rem,
+  "4": 0.25rem,
+  "8": 0.5rem,
+  "12": 0.75rem,
+  "16": 1rem,
+  "24": 1.5rem,
+  "32": 2rem,
+  "48": 3rem,
+  "64": 4rem,
+);
+
+$text-sizes: (
+  "small": 0.85rem,
+  "medium": 1rem,
+  "large": 1.25rem,
+  "extra-large": 1.5rem,
+);
+
+$line-heights: (
+  "small": 1rem,
+  "medium": 1.25rem,
+  "large": 1.5rem,
+  "extra-large": 1.75rem,
+);
+
+$fixed-widths: (0, 1, 2, 3, 5, 8);
+
+$horizontal-directions: (left, center, right);
+
+$percentages: (0, 10, 20, 25, 30, 40, 50, 60, 70, 75, 80, 90, 100);
+
+$screen-sizes: (
+  "desktop": 1400px,
+  "mobile": 500px,
+  "tablet": 800px,
+);

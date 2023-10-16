@@ -1,0 +1,48 @@
+@import "@root";
+@import "@font";
+
+@each $font-kerning in $font-kerning-values {
+  .font-kerning-#{$font-kerning} {
+    font-kerning: $font-kerning;
+  }
+}
+
+@each $font-optical-sizing in $font-optical-sizing-values {
+  .font-optical-sizing-#{$font-optical-sizing} {
+    font-optical-sizing: $font-optical-sizing;
+  }
+}
+
+@each $font-stretch in $font-stretch-values {
+  .font-stretch-#{$font-stretch} {
+    font-stretch: $font-stretch;
+  }
+}
+
+@each $font-style in $font-style-values {
+  .font-style-#{$font-style} {
+    font-style: $font-style;
+  }
+}
+
+@each $font-weight in $font-weight-values {
+  .font-weight-#{$font-weight} {
+    font-weight: $font-weight;
+  }
+}
+
+@each $key, $value in $text-sizes {
+  .text-#{$key} {
+    font-size: var(--text-#{$key});
+  }
+}
+
+@each $key, $value in $line-heights {
+  .line-height-#{$key} {
+    line-height: var(--height-#{$key});
+  }
+}
+
+.font-family-inherit {
+  font-family: inherit;
+}

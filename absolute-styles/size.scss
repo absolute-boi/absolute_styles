@@ -1,0 +1,76 @@
+@import "@root";
+@import "@size";
+
+@each $width in $percentages {
+  .width-#{$width} {
+    width: var(--percentage-#{$width});
+  }
+}
+
+@each $width in $width-values {
+  .width-#{$width} {
+    width: $width;
+  }
+}
+
+@each $max-width in $percentages {
+  .max-width-#{$max-width} {
+    max-width: var(--percentage-#{$max-width});
+  }
+}
+
+@each $key, $value in $screen-sizes {
+  .max-width-#{$key} {
+    max-width: $value;
+  }
+}
+
+@each $min-width in $percentages {
+  .min-width-#{$min-width} {
+    min-width: var(--percentage-#{$min-width});
+  }
+}
+
+.full-width {
+  width: var(--percentage-100);
+}
+
+@each $full-width in $percentages {
+  .full-width-#{$full-width} {
+    max-width: var(--percentage-#{$full-width});
+    width: var(--percentage-100);
+  }
+}
+
+@each $height in $percentages {
+  .height-#{$height} {
+    height: var(--percentage-#{$height});
+  }
+}
+
+@each $max-height in $percentages {
+  .max-height-#{$max-height} {
+    max-height: var(--percentage-#{$max-height});
+  }
+}
+
+@each $min-height in $percentages {
+  .min-height-#{$min-height} {
+    min-height: var(--percentage-#{$min-height});
+  }
+}
+
+.height-full-view {
+  height: 100vh;
+}
+
+.full-height {
+  height: var(--percentage-100);
+}
+
+@each $full-height in $percentages {
+  .full-height-#{$full-height} {
+    max-height: var(--percentage-#{$full-height});
+    height: var(--percentage-100);
+  }
+}

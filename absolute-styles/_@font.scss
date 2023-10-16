@@ -1,0 +1,69 @@
+$font-kerning-values: (
+  auto,
+  inherit,
+  initial,
+  none,
+  normal,
+  revert-layer,
+  revert,
+  unset
+);
+
+$font-optical-sizing-values: (
+  auto,
+  inherit,
+  initial,
+  none,
+  revert-layer,
+  revert,
+  unset
+);
+
+$font-stretch-values: (
+  condensed,
+  expanded,
+  extra-condensed,
+  extra-expanded,
+  inherit,
+  initial,
+  normal,
+  revert-layer,
+  revert,
+  semi-condensed,
+  semi-expanded,
+  ultra-condensed,
+  ultra-expanded,
+  unset
+);
+
+$font-style-values: (
+  inherit,
+  initial,
+  italic,
+  normal,
+  oblique,
+  revert-layer,
+  revert,
+  unset
+);
+
+$font-weight-values: (
+  bold,
+  bolder,
+  inherit,
+  initial,
+  lighter,
+  normal,
+  revert-layer,
+  revert,
+  unset,
+  100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900
+);

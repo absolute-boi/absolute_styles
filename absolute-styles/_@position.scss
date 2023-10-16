@@ -1,0 +1,121 @@
+$positions: (
+  absolute,
+  fixed,
+  inherit,
+  initial,
+  relative,
+  revert,
+  static,
+  sticky,
+  unset
+);
+
+$align-content-values: (
+  baseline,
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  normal,
+  revert,
+  space-around,
+  space-between,
+  space-evenly,
+  start,
+  stretch,
+  unset
+);
+
+$align-items-values: (
+  baseline,
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  normal,
+  revert,
+  self-start,
+  self-end,
+  start,
+  stretch,
+  unset
+);
+
+$align-self-values: (
+  auto,
+  baseline,
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  normal,
+  revert,
+  self-end,
+  self-start,
+  start,
+  unset
+);
+
+$justify-content-values: (
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  left,
+  normal,
+  revert,
+  right,
+  space-around,
+  space-between,
+  space-evenly,
+  start,
+  stretch,
+  unset
+);
+
+$justify-items-values: (
+  baseline,
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  left,
+  normal,
+  revert,
+  right,
+  self-end,
+  self-start,
+  start,
+  stretch,
+  unset
+);
+
+$justify-self-values: (
+  auto,
+  baseline,
+  center,
+  end,
+  flex-end,
+  flex-start,
+  inherit,
+  initial,
+  left,
+  normal,
+  revert,
+  right,
+  self-end,
+  self-start,
+  start,
+  stretch,
+  unset
+);

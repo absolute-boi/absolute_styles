@@ -1,0 +1,20 @@
+$sides: ("bottom", "top", "left", "right");
+
+$styles: (
+  none,
+  hidden,
+  dotted,
+  dashed,
+  solid,
+  double,
+  groove,
+  ridge,
+  inset,
+  outset,
+  inherit,
+  initial,
+  revert,
+  unset
+);
+
+$rounded-values: (0, 2, 4, 8, 16, 24);

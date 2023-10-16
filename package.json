@@ -1,0 +1,21 @@
+{
+  "author": "absolute-boi",
+  "description": "a descriptive design system meant to help quickly compose custom user interfaces in maintainable and easily readable patterns",
+  "license": "GPL-3.0",
+  "name": "absolute_styles",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "css-minify": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3",
+    "vite": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "minify": "css-minify -d css -o min",
+    "preview": "vite preview"
+  }
+}

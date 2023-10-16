@@ -1,0 +1,37 @@
+@use "sass:math";
+
+.flash {
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+  transition-delay: 0;
+}
+
+.flash:hover {
+  opacity: 1;
+}
+
+.dim-0 {
+  opacity: var(--percentage-0);
+}
+
+@for $i from 1 through 9 {
+  .dim-#{$i * 10},
+  .flash-#{$i * 10}:hover {
+    opacity: var(--percentage-#{$i * 10});
+  }
+}
+
+.flash-100:hover {
+  opacity: var(--percentage-100);
+}
+
+@for $i from 1 through 3 {
+  .raised-#{$i} {
+    box-shadow: 0
+      (#{math.pow(2, $i - 1) * 0.1rem})
+      (#{$i * 0.2rem})
+      (#{$i * -0.01rem})
+      rgba(0, 0, 0, var(--percentage-100));
+  }
+}
