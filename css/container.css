@@ -98,7 +98,7 @@
   display: unset;
 }
 
-.flew-row {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
