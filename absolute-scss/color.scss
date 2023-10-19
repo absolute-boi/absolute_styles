@@ -1,0 +1,57 @@
+@use 'sass:color';
+
+@import '@color';
+
+@each $key, $value in $base-colors {
+  .border-color-#{$key} {
+    border-color: var(--color-#{$key});
+  }
+}
+
+@each $key, $value in $base-colors {
+  .border-color-#{$key}-barely-transparent {
+    border-color: var(--color-#{$key}-barely-transparent);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key} {
+    background-color: var(--color-#{$key});
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key}-barely-transparent {
+    background-color: var(--color-#{$key}-barely-transparent);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key}-quasi-transparent {
+    background-color: var(--color-#{$key}-barely-transparent);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key}-semi-transparent {
+    background-color: var(--color-#{$key}-semi-transparent);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key}-quasi-opaque {
+    background-color: var(--color-#{$key}-barely-opaque);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .surface-#{$key}-barely-opaque {
+    background-color: var(--color-#{$key}-barely-opaque);
+  }
+}
+
+@each $key, $value in $base-colors {
+  .text-color-#{$key} {
+    color: var(--color-#{$key});
+  }
+}
