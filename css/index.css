@@ -411,9 +411,5 @@ textarea {
 
 input[type=file] {
   display: inline-block;
-  font-size: var(--text-small);
-  margin-right: var(--spacing-8);
-  min-width: 100px;
-  padding: var(--spacing-8);
   z-index: 1;
 }
