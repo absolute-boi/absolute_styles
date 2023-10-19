@@ -1,4 +1,7 @@
+@use 'sass:color';
+
 @import '@root';
+@import '@color';
 
 :root {
   @each $percentage in $percentages {
@@ -15,5 +18,13 @@
   }
   @each $width in $fixed-widths {
     --linear-width-#{$width}: #{$width * 1px};
+  }
+  @each $key, $value in $base-colors {
+    --color-#{$key}: #{$value};
+    --color-#{$key}-barely-transparent: #{color.adjust($value, $alpha: -0.1)};
+    --color-#{$key}-quasi-transparent: #{color.adjust($value, $alpha: -0.25)};
+    --color-#{$key}-semi-transparent: #{color.adjust($value, $alpha: -0.5)};
+    --color-#{$key}-quasi-opaque: #{color.adjust($value, $alpha: -0.75)};
+    --color-#{$key}-barely-opaque: #{color.adjust($value, $alpha: -0.9)};
   }
 }
