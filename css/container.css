@@ -98,19 +98,19 @@
   display: unset;
 }
 
-.flew-row {
+.flex-row {
   display: flex;
-  direction: row;
+  flex-direction: row;
 }
 
 .flex-row-reverse {
   display: flex;
-  direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .flex-column {
   display: flex;
-  direction: column;
+  flex-direction: column;
 }
 
 .flex-reactive {
