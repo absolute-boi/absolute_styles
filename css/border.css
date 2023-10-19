@@ -549,3 +549,62 @@
 .border-none {
   border: none;
 }
+
+.bordered {
+  border: var(--border-width, var(--linear-width-1)) solid var(--border-color, var(--color-light));
+  border-radius: var(--border-radius, var(--spacing-4));
+}
+
+.bordered.vertical {
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+.bordered.horizontal {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.bordered.top {
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
+
+.bordered.bottom {
+  border-right-width: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+}
+
+.bordered.left {
+  border-right-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.bordered.right {
+  border-left-width: 0;
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.border-bottom-square {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.border-top-square {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.border-left-square {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.border-right-square {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
