@@ -1,0 +1,34 @@
+@import "@font";
+
+
+@font-face {
+  font-display: fallback;
+  font-family: "Orbitron Medium";
+  font-style: normal;
+  src: url("#{$fonts-path}/Orbitron_Medium.woff2")
+      format("woff2"),
+    url("#{$fonts-path}/Orbitron_Medium.woff")
+      format("woff"),
+    url("#{$fonts-path}/Orbitron_Medium.otf")
+      format("opentype"),
+    url("#{$fonts-path}/Orbitron_Medium.ttf")
+      format("truetype"),
+    url("#{$fonts-path}/Orbitron_Medium.eot")
+      format("embedded-opentype");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Orbitron Light";
+  font-style: normal;
+  src: url("#{$fonts-path}/Orbitron_Light.woff2")
+      format("woff2"),
+    url("#{$fonts-path}/Orbitron_Light.woff")
+      format("woff"),
+    url("#{$fonts-path}/Orbitron_Light.otf")
+      format("opentype"),
+    url("#{$fonts-path}/Orbitron_Light.ttf")
+      format("truetype"),
+    url("#{$fonts-path}/Orbitron_Light.eot")
+      format("embedded-opentype");
+}

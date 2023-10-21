@@ -9,3 +9,9 @@ $width-values: (
   revert,
   unset
 );
+
+$modal-width-values: (
+  'small': 315px,
+  'medium': 500px,
+  'large': 90vw
+)

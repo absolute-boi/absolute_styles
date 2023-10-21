@@ -1,0 +1,12 @@
+@font-face {
+  font-display: fallback;
+  font-family: "Orbitron Medium";
+  font-style: normal;
+  src: url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Medium.woff2") format("woff2"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Medium.woff") format("woff"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Medium.otf") format("opentype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Medium.ttf") format("truetype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Medium.eot") format("embedded-opentype");
+}
+@font-face {
+  font-display: fallback;
+  font-family: "Orbitron Light";
+  font-style: normal;
+  src: url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.woff2") format("woff2"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.woff") format("woff"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.otf") format("opentype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.ttf") format("truetype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.eot") format("embedded-opentype");
+}
