@@ -1,0 +1,15 @@
+@import "@font";
+
+
+@font-face {
+  font-display: fallback;
+  font-family: "OpenSans Regular";
+  font-style: normal;
+  src: url("#{$fonts-path}/OpenSans_Regular.woff2")
+      format("woff2"),
+    url("#{$fonts-path}/OpenSans_Regular.otf")
+      format("opentype"),
+    url("#{$fonts-path}/OpenSans_Regular.ttf")
+      format("truetype");
+}
+
