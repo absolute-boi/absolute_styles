@@ -1,0 +1,12 @@
+@import "@font";
+
+
+@font-face {
+  font-display: fallback;
+  font-family: "Simpsonfont";
+  font-style: normal;
+  src: url("#{$fonts-path}/Simpsonfont.woff2")
+      format("woff2"),
+    url("#{$fonts-path}/Simpsonfont.otf")
+      format("opentype");
+}

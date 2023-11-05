@@ -2,6 +2,14 @@
   border-color: var(--color-black);
 }
 
+.border-color-char {
+  border-color: var(--color-char);
+}
+
+.border-color-cyan {
+  border-color: var(--color-cyan);
+}
+
 .border-color-dark {
   border-color: var(--color-dark);
 }
@@ -14,20 +22,32 @@
   border-color: var(--color-light);
 }
 
-.border-color-white {
-  border-color: var(--color-white);
-}
-
-.border-color-turquoise {
-  border-color: var(--color-turquoise);
+.border-color-scarlet {
+  border-color: var(--color-scarlet);
 }
 
 .border-color-tomato {
   border-color: var(--color-tomato);
 }
 
+.border-color-turquoise {
+  border-color: var(--color-turquoise);
+}
+
+.border-color-white {
+  border-color: var(--color-white);
+}
+
 .border-color-black-barely-transparent {
   border-color: var(--color-black-barely-transparent);
+}
+
+.border-color-char-barely-transparent {
+  border-color: var(--color-char-barely-transparent);
+}
+
+.border-color-cyan-barely-transparent {
+  border-color: var(--color-cyan-barely-transparent);
 }
 
 .border-color-dark-barely-transparent {
@@ -42,20 +62,32 @@
   border-color: var(--color-light-barely-transparent);
 }
 
-.border-color-white-barely-transparent {
-  border-color: var(--color-white-barely-transparent);
-}
-
-.border-color-turquoise-barely-transparent {
-  border-color: var(--color-turquoise-barely-transparent);
+.border-color-scarlet-barely-transparent {
+  border-color: var(--color-scarlet-barely-transparent);
 }
 
 .border-color-tomato-barely-transparent {
   border-color: var(--color-tomato-barely-transparent);
 }
 
+.border-color-turquoise-barely-transparent {
+  border-color: var(--color-turquoise-barely-transparent);
+}
+
+.border-color-white-barely-transparent {
+  border-color: var(--color-white-barely-transparent);
+}
+
 .surface-black {
   background-color: var(--color-black);
+}
+
+.surface-char {
+  background-color: var(--color-char);
+}
+
+.surface-cyan {
+  background-color: var(--color-cyan);
 }
 
 .surface-dark {
@@ -70,20 +102,32 @@
   background-color: var(--color-light);
 }
 
-.surface-white {
-  background-color: var(--color-white);
-}
-
-.surface-turquoise {
-  background-color: var(--color-turquoise);
+.surface-scarlet {
+  background-color: var(--color-scarlet);
 }
 
 .surface-tomato {
   background-color: var(--color-tomato);
 }
 
+.surface-turquoise {
+  background-color: var(--color-turquoise);
+}
+
+.surface-white {
+  background-color: var(--color-white);
+}
+
 .surface-black-barely-transparent {
   background-color: var(--color-black-barely-transparent);
+}
+
+.surface-char-barely-transparent {
+  background-color: var(--color-char-barely-transparent);
+}
+
+.surface-cyan-barely-transparent {
+  background-color: var(--color-cyan-barely-transparent);
 }
 
 .surface-dark-barely-transparent {
@@ -98,20 +142,32 @@
   background-color: var(--color-light-barely-transparent);
 }
 
-.surface-white-barely-transparent {
-  background-color: var(--color-white-barely-transparent);
-}
-
-.surface-turquoise-barely-transparent {
-  background-color: var(--color-turquoise-barely-transparent);
+.surface-scarlet-barely-transparent {
+  background-color: var(--color-scarlet-barely-transparent);
 }
 
 .surface-tomato-barely-transparent {
   background-color: var(--color-tomato-barely-transparent);
 }
 
+.surface-turquoise-barely-transparent {
+  background-color: var(--color-turquoise-barely-transparent);
+}
+
+.surface-white-barely-transparent {
+  background-color: var(--color-white-barely-transparent);
+}
+
 .surface-black-quasi-transparent {
   background-color: var(--color-black-barely-transparent);
+}
+
+.surface-char-quasi-transparent {
+  background-color: var(--color-char-barely-transparent);
+}
+
+.surface-cyan-quasi-transparent {
+  background-color: var(--color-cyan-barely-transparent);
 }
 
 .surface-dark-quasi-transparent {
@@ -126,20 +182,32 @@
   background-color: var(--color-light-barely-transparent);
 }
 
-.surface-white-quasi-transparent {
-  background-color: var(--color-white-barely-transparent);
-}
-
-.surface-turquoise-quasi-transparent {
-  background-color: var(--color-turquoise-barely-transparent);
+.surface-scarlet-quasi-transparent {
+  background-color: var(--color-scarlet-barely-transparent);
 }
 
 .surface-tomato-quasi-transparent {
   background-color: var(--color-tomato-barely-transparent);
 }
 
+.surface-turquoise-quasi-transparent {
+  background-color: var(--color-turquoise-barely-transparent);
+}
+
+.surface-white-quasi-transparent {
+  background-color: var(--color-white-barely-transparent);
+}
+
 .surface-black-semi-transparent {
   background-color: var(--color-black-semi-transparent);
+}
+
+.surface-char-semi-transparent {
+  background-color: var(--color-char-semi-transparent);
+}
+
+.surface-cyan-semi-transparent {
+  background-color: var(--color-cyan-semi-transparent);
 }
 
 .surface-dark-semi-transparent {
@@ -154,20 +222,32 @@
   background-color: var(--color-light-semi-transparent);
 }
 
-.surface-white-semi-transparent {
-  background-color: var(--color-white-semi-transparent);
-}
-
-.surface-turquoise-semi-transparent {
-  background-color: var(--color-turquoise-semi-transparent);
+.surface-scarlet-semi-transparent {
+  background-color: var(--color-scarlet-semi-transparent);
 }
 
 .surface-tomato-semi-transparent {
   background-color: var(--color-tomato-semi-transparent);
 }
 
+.surface-turquoise-semi-transparent {
+  background-color: var(--color-turquoise-semi-transparent);
+}
+
+.surface-white-semi-transparent {
+  background-color: var(--color-white-semi-transparent);
+}
+
 .surface-black-quasi-opaque {
   background-color: var(--color-black-barely-opaque);
+}
+
+.surface-char-quasi-opaque {
+  background-color: var(--color-char-barely-opaque);
+}
+
+.surface-cyan-quasi-opaque {
+  background-color: var(--color-cyan-barely-opaque);
 }
 
 .surface-dark-quasi-opaque {
@@ -182,20 +262,32 @@
   background-color: var(--color-light-barely-opaque);
 }
 
-.surface-white-quasi-opaque {
-  background-color: var(--color-white-barely-opaque);
-}
-
-.surface-turquoise-quasi-opaque {
-  background-color: var(--color-turquoise-barely-opaque);
+.surface-scarlet-quasi-opaque {
+  background-color: var(--color-scarlet-barely-opaque);
 }
 
 .surface-tomato-quasi-opaque {
   background-color: var(--color-tomato-barely-opaque);
 }
 
+.surface-turquoise-quasi-opaque {
+  background-color: var(--color-turquoise-barely-opaque);
+}
+
+.surface-white-quasi-opaque {
+  background-color: var(--color-white-barely-opaque);
+}
+
 .surface-black-barely-opaque {
   background-color: var(--color-black-barely-opaque);
+}
+
+.surface-char-barely-opaque {
+  background-color: var(--color-char-barely-opaque);
+}
+
+.surface-cyan-barely-opaque {
+  background-color: var(--color-cyan-barely-opaque);
 }
 
 .surface-dark-barely-opaque {
@@ -210,20 +302,32 @@
   background-color: var(--color-light-barely-opaque);
 }
 
-.surface-white-barely-opaque {
-  background-color: var(--color-white-barely-opaque);
-}
-
-.surface-turquoise-barely-opaque {
-  background-color: var(--color-turquoise-barely-opaque);
+.surface-scarlet-barely-opaque {
+  background-color: var(--color-scarlet-barely-opaque);
 }
 
 .surface-tomato-barely-opaque {
   background-color: var(--color-tomato-barely-opaque);
 }
 
+.surface-turquoise-barely-opaque {
+  background-color: var(--color-turquoise-barely-opaque);
+}
+
+.surface-white-barely-opaque {
+  background-color: var(--color-white-barely-opaque);
+}
+
 .text-color-black {
   color: var(--color-black);
+}
+
+.text-color-char {
+  color: var(--color-char);
+}
+
+.text-color-cyan {
+  color: var(--color-cyan);
 }
 
 .text-color-dark {
@@ -238,14 +342,18 @@
   color: var(--color-light);
 }
 
-.text-color-white {
-  color: var(--color-white);
+.text-color-scarlet {
+  color: var(--color-scarlet);
+}
+
+.text-color-tomato {
+  color: var(--color-tomato);
 }
 
 .text-color-turquoise {
   color: var(--color-turquoise);
 }
 
-.text-color-tomato {
-  color: var(--color-tomato);
+.text-color-white {
+  color: var(--color-white);
 }
