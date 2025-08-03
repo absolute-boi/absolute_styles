@@ -1,0 +1,58 @@
+@import '@fx';
+@import "@root";
+
+@each $degree in $degrees {
+  .transform-rotate-#{$degree} {
+    transform: rotate(var(--degrees-#{$degree}));
+  }
+}
+
+@each $degree in $degrees {
+  .transform-skew-#{$degree} {
+    transform: skew(var(--degrees-#{$degree}));
+  }
+}
+
+.transform-scale-0 {
+  transform: scale(0);
+}
+
+@each $size in $fibonacci {
+  .transform-scale-#{$size} {
+    transform: scale(#{$size});
+  }
+}
+
+@each $transition-property in $transition-properties {
+  .transition-property-#{$transition-property} {
+    transition-property: $transition-property;
+  }
+}
+
+.transition-property-- {
+  transition-property: var(--transition-property);
+}
+
+@each $seconds in $fibonacci {
+  .transition-delay-#{$seconds}-s {
+    transition-delay: #{$seconds}s;
+  }
+}
+
+@each $seconds in $fibonacci {
+  .transition-duration-#{$seconds}-s {
+    transition-duration: #{$seconds}s;
+  }
+}
+
+@each $seconds in $fibonacci {
+  .transition-delay-#{$seconds}00-ms {
+    transition-delay: #{$seconds}00ms;
+  }
+}
+
+@each $seconds in $fibonacci {
+  .transition-duration-#{$seconds}00-ms {
+    transition-duration: #{$seconds}00ms;
+  }
+}
