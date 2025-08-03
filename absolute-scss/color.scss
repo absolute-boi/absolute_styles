@@ -8,6 +8,10 @@
   }
 }
 
+.border-color-transparent {
+  border-color: transparent;
+}
+
 @each $key, $value in $base-colors {
   .border-color-#{$key}-barely-transparent {
     border-color: var(--color-#{$key}-barely-transparent);
@@ -18,6 +22,10 @@
   .surface-#{$key} {
     background-color: var(--color-#{$key});
   }
+}
+
+.surface-transparent {
+  background-color: transparent;
 }
 
 @each $key, $value in $base-colors {
@@ -54,4 +62,8 @@
   .text-color-#{$key} {
     color: var(--color-#{$key});
   }
+}
+
+.text-color-transparent {
+  color: transparent
 }

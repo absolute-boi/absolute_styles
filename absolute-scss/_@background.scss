@@ -1,0 +1,77 @@
+$background-size-values: (
+  auto,
+  cover,
+  contain,
+  initial,
+  inherit
+);
+
+$background-repeat-values: (
+  repeat,
+  repeat-x,
+  repeat-y,
+  no-repeat,
+  initial,
+  inherit
+);
+
+$background-position-values: (
+  initial,
+  inherit
+);
+
+$background-position-x-values: (
+  left,
+  right,
+  center
+);
+
+$background-position-y-values: (
+  top,
+  center,
+  bottom
+);
+
+$background-origin-values: (
+  padding-box,
+  border-box,
+  content-box,
+  initial,
+  inherit
+);
+
+$background-image-values: (
+  none,
+  initial,
+  inherit
+);
+
+$background-clip-values: (
+  padding-box,
+  border-box,
+  content-box,
+  initial,
+  inherit
+);
+
+$background-blend-values: (
+  normal,
+  multiply,
+  screen,
+  overlay,
+  darken,
+  lighten,
+  color-dodge,
+  saturation,
+  color,
+  luminosity
+);
+
+$background-attachment-values: (
+  scroll,
+  fixed,
+  local,
+  initial,
+  inherit
+);
+

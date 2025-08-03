@@ -606,3 +606,23 @@
 .overflow-wrap-unset {
   overflow-wrap: unset;
 }
+
+.visibility-visible {
+  visibility: visible;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.visibility-collapse {
+  visibility: collapse;
+}
+
+.visibility-initial {
+  visibility: initial;
+}
+
+.visibility-inherit {
+  visibility: inherit;
+}

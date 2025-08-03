@@ -73,6 +73,12 @@
   }
 }
 
+@each $width in $fixed-widths {
+  .letter-spacing-#{$width} {
+    letter-spacing: #{$width * 1px};
+  }
+}
+
 .hover-decoration-none:hover {
   text-decoration: none;
 }

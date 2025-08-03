@@ -10,3 +10,10 @@
   font-style: normal;
   src: url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.woff2") format("woff2"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.woff") format("woff"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.otf") format("opentype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.ttf") format("truetype"), url("https://link.storjshare.io/raw/jw34ilopmhbywya4g7ggvi7ge32q/absolute-styles/fonts/Orbitron_Light.eot") format("embedded-opentype");
 }
+.font-orbitron-medium {
+  font-family: "Orbitron Medium";
+}
+
+.font-orbitron-light {
+  font-family: "Orbitron Light";
+}
