@@ -139,3 +139,9 @@
     overflow-wrap: $overflow-wrap;
   }
 }
+
+@each $visibility in $visibility-values {
+  .visibility-#{$visibility} {
+    visibility: $visibility;
+  }
+}

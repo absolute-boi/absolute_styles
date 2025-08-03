@@ -1,0 +1,75 @@
+@import '@background';
+@import '@root';
+
+@each $background-size in $background-size-values {
+  .background-size-#{$background-size} {
+    background-size: $background-size;
+  }
+}
+
+@each $background-repeat in $background-repeat-values {
+  .background-repeat-#{$background-repeat} {
+    background-repeat: $background-repeat;
+  }
+}
+
+@each $background-position in $background-position-values {
+  .background-position-#{$background-position} {
+    background-position: $background-position;
+  }
+}
+
+@each $background-position-x in $percentages {
+  .background-position-x-#{$background-position-x} {
+    background-position-x: #{$background-position-x * 1%}
+  }
+}
+
+@each $background-position-x in $background-position-x-values {
+  .background-position-x-#{$background-position-x} {
+    background-position-x: $background-position-x
+  }
+}
+
+@each $background-position-y in $percentages {
+  .background-position-y-#{$background-position-y} {
+    background-position-y: #{$background-position-y * 1%}
+  }
+}
+
+@each $background-position-y in $background-position-y-values {
+  .background-position-y-#{$background-position-y} {
+    background-position-y: $background-position-y
+  }
+}
+
+@each $background-origin in $background-origin-values {
+  .background-origin-#{$background-origin} {
+    background-origin: $background-origin;
+  }
+}
+
+@each $background-image in $background-image-values {
+  .background-image-#{$background-image} {
+    background-image: $background-image;
+  }
+}
+
+@each $background-clip in $background-clip-values {
+  .background-clip-#{$background-clip} {
+    background-clip: $background-clip;
+  }
+}
+
+@each $background-blend in $background-blend-values {
+  .background-blend-#{$background-blend} {
+    background-blend-mode: $background-blend;
+  }
+}
+
+@each $background-attachment in $background-attachment-values {
+  .background-attachment-#{$background-attachment} {
+    background-attachment: $background-attachment;
+  }
+}
+

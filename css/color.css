@@ -18,6 +18,10 @@
   border-color: var(--color-gray);
 }
 
+.border-color-green {
+  border-color: var(--color-green);
+}
+
 .border-color-light {
   border-color: var(--color-light);
 }
@@ -38,6 +42,10 @@
   border-color: var(--color-white);
 }
 
+.border-color-transparent {
+  border-color: transparent;
+}
+
 .border-color-black-barely-transparent {
   border-color: var(--color-black-barely-transparent);
 }
@@ -56,6 +64,10 @@
 
 .border-color-gray-barely-transparent {
   border-color: var(--color-gray-barely-transparent);
+}
+
+.border-color-green-barely-transparent {
+  border-color: var(--color-green-barely-transparent);
 }
 
 .border-color-light-barely-transparent {
@@ -98,6 +110,10 @@
   background-color: var(--color-gray);
 }
 
+.surface-green {
+  background-color: var(--color-green);
+}
+
 .surface-light {
   background-color: var(--color-light);
 }
@@ -118,6 +134,10 @@
   background-color: var(--color-white);
 }
 
+.surface-transparent {
+  background-color: transparent;
+}
+
 .surface-black-barely-transparent {
   background-color: var(--color-black-barely-transparent);
 }
@@ -136,6 +156,10 @@
 
 .surface-gray-barely-transparent {
   background-color: var(--color-gray-barely-transparent);
+}
+
+.surface-green-barely-transparent {
+  background-color: var(--color-green-barely-transparent);
 }
 
 .surface-light-barely-transparent {
@@ -178,6 +202,10 @@
   background-color: var(--color-gray-barely-transparent);
 }
 
+.surface-green-quasi-transparent {
+  background-color: var(--color-green-barely-transparent);
+}
+
 .surface-light-quasi-transparent {
   background-color: var(--color-light-barely-transparent);
 }
@@ -216,6 +244,10 @@
 
 .surface-gray-semi-transparent {
   background-color: var(--color-gray-semi-transparent);
+}
+
+.surface-green-semi-transparent {
+  background-color: var(--color-green-semi-transparent);
 }
 
 .surface-light-semi-transparent {
@@ -258,6 +290,10 @@
   background-color: var(--color-gray-barely-opaque);
 }
 
+.surface-green-quasi-opaque {
+  background-color: var(--color-green-barely-opaque);
+}
+
 .surface-light-quasi-opaque {
   background-color: var(--color-light-barely-opaque);
 }
@@ -296,6 +332,10 @@
 
 .surface-gray-barely-opaque {
   background-color: var(--color-gray-barely-opaque);
+}
+
+.surface-green-barely-opaque {
+  background-color: var(--color-green-barely-opaque);
 }
 
 .surface-light-barely-opaque {
@@ -338,6 +378,10 @@
   color: var(--color-gray);
 }
 
+.text-color-green {
+  color: var(--color-green);
+}
+
 .text-color-light {
   color: var(--color-light);
 }
@@ -356,4 +400,8 @@
 
 .text-color-white {
   color: var(--color-white);
+}
+
+.text-color-transparent {
+  color: transparent;
 }

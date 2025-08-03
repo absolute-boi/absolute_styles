@@ -478,6 +478,30 @@
   white-space: unset;
 }
 
+.letter-spacing-0 {
+  letter-spacing: 0px;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+
+.letter-spacing-3 {
+  letter-spacing: 3px;
+}
+
+.letter-spacing-5 {
+  letter-spacing: 5px;
+}
+
+.letter-spacing-8 {
+  letter-spacing: 8px;
+}
+
 .hover-decoration-none:hover {
   text-decoration: none;
 }

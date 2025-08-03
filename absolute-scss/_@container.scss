@@ -19,6 +19,14 @@ $display-values: (
   unset
 );
 
+$visibility-values: (
+  visible,
+  hidden,
+  collapse,
+  initial,
+  inherit
+);
+
 $flex-basis-values: (
   auto,
   content,
